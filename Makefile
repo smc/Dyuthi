@@ -3,7 +3,7 @@
 fontpath=/usr/share/fonts/truetype/malayalam
 font=Dyuthi
 
-default: compile
+default: all
 all: compile webfonts
 
 compile:
@@ -16,5 +16,10 @@ webfonts:compile
 	@sfntly -e -x ${font}.ttf ${font}.eot;
 	@[ -x `which woff2_compress` ] && woff2_compress ${font}.ttf;
 
-install: compile
-	@install -D -m 0644 ${font}.ttf ${DESTDIR}/${fontpath}/$${font}.ttf;
+install:
+	@install -D -m 0644 ${font}.ttf ${DESTDIR}/${fontpath}/${font}.ttf;
+
+test: compile
+# Test the fonts
+	@echo "Testing font ${font}";
+	@hb-view ${font}.ttf --text-file tests/tests.txt --output-file tests/${font}.pdf;
