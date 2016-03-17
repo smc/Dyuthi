@@ -2,15 +2,17 @@ SplineFontDB: 3.0
 FontName: Dyuthi
 FullName: Dyuthi
 FamilyName: Dyuthi
-Weight: Book
-Copyright: Digitized data copyright (c) 2007,Hiran Venugopalan, Hussain K H,Suresh P, Swathanthra Malayalam Computing(http://smc.org.in)
-Version: 1.0.1.1
+Weight: Regular
+Copyright: Digitized data copyright(c) 2007 Hussain K H, Hiran Venugopalan, Suresh P, Santhosh Thottingal, Rajeesh K Nambiar, Kavya Manohar, Swathanthra Malayalam Computing (http://smc.org.in)\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\n
+Version: 1
+DefaultBaseFilename: Dyuthi
 ItalicAngle: 0
-UnderlinePosition: -1800
-UnderlineWidth: 120
+UnderlinePosition: -100
+UnderlineWidth: 20
 Ascent: 1434
 Descent: 614
 InvalidEm: 0
+sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
@@ -20,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1458237869
+ModificationTime: 1458238512
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +59,7 @@ OS2CodePages: 00000000.80000000
 OS2UnicodeRanges: 80800001.00002000.00000000.00000000
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "Dyuthi2008SMC" "" "1.0.1.1" "" "" "" "Hiran Venugopalan, Hussain KH and Suresh P for Sawthanthra Malayalam Computing (SMC)" "" "http://smc.org.in" "http://hiran.in" "Dyuthi OpenType font+AA0ACgAA    Copyright (C) 2007,Hiran Venugopalan, Hussain K.H,Suresh P,Swathanthra Malayalam Computing(http://smc.org.in)+AAoADQAK    This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.+AA0ACgANAAoA    This program is distributed in the hope that it will be useful,+AA0ACgAA    but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the  GNU General Public License for more details.+AA0ACgANAAoA    You should have received a copy of the GNU General Public License  along with this program; if not, write to the Free Software+AA0ACgAA    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA+AA0ACgANAAoACgAA---------------+AAoA-Font Exception+AAoA---------------+AAoACgAA    As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version. +AAoA" "http://www.gnu.org/copyleft/gpl.html" "" "Dyuthi" "Regular" "Dyuthi"
+LangName: 1033 "" "" "" "" "" "1" "" "" "" "Hiran Venugopalan, Hussain K H and Suresh P for Sawthanthra Malayalam Computing (SMC)" "" "http://smc.org.in" "http://hiran.in" "Digitized data copyright(c) 2007 Hussain K H, Hiran Venugopalan, Suresh P, Santhosh Thottingal, Rajeesh K Nambiar, Kavya Manohar, Swathanthra Malayalam Computing (http://smc.org.in)+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAA------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Dyuthi" "Regular"
 GaspTable: 1 65535 2 0
 Encoding: Custom
 UnicodeInterp: none
@@ -7026,38 +7028,38 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-2887.5 237.5 m 2
- 2887.5 85 2887.5 85 2777.5 -25 c 0
- 2670 -135 2670 -135 2512.5 -135 c 2
- 580 -135 l 2
- 422.5 -135 422.5 -135 315 -25 c 0
- 205 85 205 85 205 237.5 c 2
- 205 1095 l 2
- 205 1245 205 1245 315 1360 c 1
- 425 1470 425 1470 580 1470 c 2
- 2512.5 1470 l 2
- 2667.5 1470 2667.5 1470 2777.5 1360 c 1
- 2887.5 1245 2887.5 1245 2887.5 1095 c 2
- 2887.5 237.5 l 2
-2777.5 352.5 m 2
- 2777.5 985 l 2
- 2777.5 1137.5 2777.5 1137.5 2667.5 1252.5 c 1
- 2557.5 1362.5 2557.5 1362.5 2405 1362.5 c 2
- 687.5 1362.5 l 2
- 535 1362.5 535 1362.5 425 1252.5 c 1
- 315 1137.5 315 1137.5 315 985 c 2
- 315 352.5 l 2
- 315 200 315 200 425 90 c 0
- 532.5 -20 532.5 -20 687.5 -20 c 2
- 2405 -20 l 2
- 2560 -20 2560 -20 2667.5 90 c 0
- 2777.5 200 2777.5 200 2777.5 352.5 c 2
+2887.5 237.5 m 2,0,1
+ 2887.5 85 2887.5 85 2777.5 -25 c 0,2,3
+ 2670 -135 2670 -135 2512.5 -135 c 2,4,-1
+ 580 -135 l 2,5,6
+ 422.5 -135 422.5 -135 315 -25 c 0,7,8
+ 205 85 205 85 205 237.5 c 2,9,-1
+ 205 1095 l 2,10,11
+ 205 1245 205 1245 315 1360 c 1,12,13
+ 425 1470 425 1470 580 1470 c 2,14,-1
+ 2512.5 1470 l 2,15,16
+ 2667.5 1470 2667.5 1470 2777.5 1360 c 1,17,18
+ 2887.5 1245 2887.5 1245 2887.5 1095 c 2,19,-1
+ 2887.5 237.5 l 2,0,1
+2777.5 352.5 m 2,20,-1
+ 2777.5 985 l 2,21,22
+ 2777.5 1137.5 2777.5 1137.5 2667.5 1252.5 c 1,23,24
+ 2557.5 1362.5 2557.5 1362.5 2405 1362.5 c 2,25,-1
+ 687.5 1362.5 l 2,26,27
+ 535 1362.5 535 1362.5 425 1252.5 c 1,28,29
+ 315 1137.5 315 1137.5 315 985 c 2,30,-1
+ 315 352.5 l 2,31,32
+ 315 200 315 200 425 90 c 0,33,34
+ 532.5 -20 532.5 -20 687.5 -20 c 2,35,-1
+ 2405 -20 l 2,36,37
+ 2560 -20 2560 -20 2667.5 90 c 0,38,39
+ 2777.5 200 2777.5 200 2777.5 352.5 c 2,20,-1
 2255 1112.5 m 1024
-1865 557.5 m 1
- 1645 557.5 l 1
- 1645 662.5 l 1
- 1865 662.5 l 1
- 1865 557.5 l 1
+1865 557.5 m 1,41,-1
+ 1645 557.5 l 1,42,-1
+ 1645 662.5 l 1,43,-1
+ 1865 662.5 l 1,44,-1
+ 1865 557.5 l 1,41,-1
 EndSplineSet
 Refer: 150 3390 N 1 0 0 1 1765 112.5 2
 Refer: 156 3398 N 1 0 0 1 267.5 110 2
@@ -7073,37 +7075,37 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-2660 237.5 m 2
- 2660 85 2660 85 2550 -25 c 0
- 2442.5 -135 2442.5 -135 2285 -135 c 2
- 580 -135 l 2
- 422.5 -135 422.5 -135 315 -25 c 0
- 205 85 205 85 205 237.5 c 2
- 205 1095 l 2
- 205 1245 205 1245 315 1360 c 1
- 425 1470 425 1470 580 1470 c 2
- 2285 1470 l 2
- 2440 1470 2440 1470 2550 1360 c 1
- 2660 1245 2660 1245 2660 1095 c 2
- 2660 237.5 l 2
-2570 322.5 m 2
- 2570 985 l 2
- 2570 1137.5 2570 1137.5 2460 1252.5 c 1
- 2350 1362.5 2350 1362.5 2195 1362.5 c 2
- 697.5 1362.5 l 2
- 542.5 1362.5 542.5 1362.5 432.5 1252.5 c 1
- 322.5 1137.5 322.5 1137.5 322.5 985 c 2
- 322.5 322.5 l 2
- 322.5 170 322.5 170 432.5 60 c 0
- 540 -50 540 -50 697.5 -50 c 2
- 2195 -50 l 2
- 2352.5 -50 2352.5 -50 2460 60 c 0
- 2570 170 2570 170 2570 322.5 c 2
-1612.5 557.5 m 1
- 1390 557.5 l 1
- 1390 660 l 1
- 1612.5 660 l 1
- 1612.5 557.5 l 1
+2660 237.5 m 2,0,1
+ 2660 85 2660 85 2550 -25 c 0,2,3
+ 2442.5 -135 2442.5 -135 2285 -135 c 2,4,-1
+ 580 -135 l 2,5,6
+ 422.5 -135 422.5 -135 315 -25 c 0,7,8
+ 205 85 205 85 205 237.5 c 2,9,-1
+ 205 1095 l 2,10,11
+ 205 1245 205 1245 315 1360 c 1,12,13
+ 425 1470 425 1470 580 1470 c 2,14,-1
+ 2285 1470 l 2,15,16
+ 2440 1470 2440 1470 2550 1360 c 1,17,18
+ 2660 1245 2660 1245 2660 1095 c 2,19,-1
+ 2660 237.5 l 2,0,1
+2570 322.5 m 2,20,-1
+ 2570 985 l 2,21,22
+ 2570 1137.5 2570 1137.5 2460 1252.5 c 1,23,24
+ 2350 1362.5 2350 1362.5 2195 1362.5 c 2,25,-1
+ 697.5 1362.5 l 2,26,27
+ 542.5 1362.5 542.5 1362.5 432.5 1252.5 c 1,28,29
+ 322.5 1137.5 322.5 1137.5 322.5 985 c 2,30,-1
+ 322.5 322.5 l 2,31,32
+ 322.5 170 322.5 170 432.5 60 c 0,33,34
+ 540 -50 540 -50 697.5 -50 c 2,35,-1
+ 2195 -50 l 2,36,37
+ 2352.5 -50 2352.5 -50 2460 60 c 0,38,39
+ 2570 170 2570 170 2570 322.5 c 2,20,-1
+1612.5 557.5 m 1,40,-1
+ 1390 557.5 l 1,41,-1
+ 1390 660 l 1,42,-1
+ 1612.5 660 l 1,43,-1
+ 1612.5 557.5 l 1,40,-1
 EndSplineSet
 Refer: 157 3399 N 1 0 0 1 280 82.5 2
 Refer: 150 3390 N 1 0 0 1 1560 82.5 2
@@ -38053,22 +38055,22 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-1342.5 -490 m 1
- 1567.5 -510 1567.5 -510 1567.5 -747.5 c 0
- 1567.5 -860 1567.5 -860 1490 -937.5 c 0
- 1415 -1010 1415 -1010 1280 -1010 c 0
- 1147.5 -1010 1147.5 -1010 1070 -930 c 1
- 1006.25 -856.25 1006.25 -856.25 1005 -742.5 c 0
- 1005 -591.25 1005 -591.25 1107.5 -535 c 1
- 1163.75 -501.25 1163.75 -501.25 1188.75 -497.5 c 0
- 1268.75 -487.5 1268.75 -487.5 1342.5 -490 c 1
-1395 -762.5 m 0
- 1395 -675 1395 -675 1370 -610 c 0
- 1337.5 -522.5 1337.5 -522.5 1282.5 -522.5 c 0
- 1182.5 -522.5 1182.5 -522.5 1182.5 -760 c 0
- 1182.5 -830 1182.5 -830 1205 -887.5 c 1
- 1240 -955 1240 -955 1285 -955 c 0
- 1395 -955 1395 -955 1395 -762.5 c 0
+1342.5 -490 m 1,0,1
+ 1567.5 -510 1567.5 -510 1567.5 -747.5 c 0,2,3
+ 1567.5 -860 1567.5 -860 1490 -937.5 c 0,4,5
+ 1415 -1010 1415 -1010 1280 -1010 c 0,6,7
+ 1147.5 -1010 1147.5 -1010 1070 -930 c 1,8,9
+ 1006.25 -856.25 1006.25 -856.25 1005 -742.5 c 0,10,11
+ 1005 -591.25 1005 -591.25 1107.5 -535 c 1,12,13
+ 1163.75 -501.25 1163.75 -501.25 1188.75 -497.5 c 0,14,15
+ 1268.75 -487.5 1268.75 -487.5 1342.5 -490 c 1,0,1
+1395 -762.5 m 0,16,17
+ 1395 -675 1395 -675 1370 -610 c 0,18,19
+ 1337.5 -522.5 1337.5 -522.5 1282.5 -522.5 c 0,20,21
+ 1182.5 -522.5 1182.5 -522.5 1182.5 -760 c 0,22,23
+ 1182.5 -830 1182.5 -830 1205 -887.5 c 1,24,25
+ 1240 -955 1240 -955 1285 -955 c 0,26,27
+ 1395 -955 1395 -955 1395 -762.5 c 0,16,17
 EndSplineSet
 Refer: 553 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
@@ -54433,7 +54435,7 @@ StartChar: dotreph
 Encoding: 819 3406 819
 Width: 0
 VWidth: 2560
-Flags: WO
+Flags: W
 LayerCount: 2
 Back
 Fore
