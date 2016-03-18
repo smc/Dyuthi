@@ -9,7 +9,7 @@ The font is designed by Hiran Venugopalan and maintained by Swathanthra Malayala
 
 License
 =======
-This Font Software is duel licensed under the SIL Open Font License,Version 1.1 and GPLV3+ Licence with Font Exception.
+This Font Software is duel licensed under the SIL Open Font License, Version 1.1 and GPLV3+ Licence with Font Exception.
 See COPYING file with the font for details.
 
 
