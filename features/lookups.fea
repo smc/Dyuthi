@@ -99,7 +99,7 @@ lookup akhn_conjuncts {
     sub p3 xx p3  by p3p3;
     #sub p3 xx p4  by p3p4;
     sub m1 xx n1  by m1n1;
-    #sub m1 xx p1  by m1p1;
+    sub m1 xx p1  by m1p1;
     sub m1 xx m1  by m1m1;
     sub y1 xx k1  by y1k1;
     sub y1 xx k1 xx k1  by y1k1k1;
