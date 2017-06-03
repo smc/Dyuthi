@@ -1,6 +1,6 @@
 SplineFontDB: 3.0
-FontName: Dyuthi
-FullName: Dyuthi
+FontName: Dyuthi-Regular
+FullName: Dyuthi Regular
 FamilyName: Dyuthi
 Weight: Regular
 Copyright: Digitized data copyright(c) 2007-2016 Hiran Venugopalan, Hussain K H, Swathanthra Malayalam Computing (http://smc.org.in)\n                        (c) 2007 Suresh P, \n                        (c) 2016 Santhosh Thottingal, Rajeesh K Nambiar, Kavya Manohar \n
@@ -16,13 +16,13 @@ sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
-XUID: [1021 400 913805956 9518307]
+XUID: [1021 400 913805956 1162426]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1470150437
+ModificationTime: 1496481846
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,15 +58,15 @@ OS2UnicodeRanges: 80800001.00002000.00000000.00000000
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1100 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "+DSYNTQ0vDUENJA0/"
-LangName: 1033 "" "" "" "Dyuthi2016SMC" "" "2.0" "" "" "" "Hiran Venugopalan, Hussain K H and Suresh P for Sawthanthra Malayalam Computing (SMC)" "Dyuthi is an ornamental typographic design that supports Latin and Malayalam. The glyph patterns are based on popular 'bulged ended' type designs which used to be popular in Malayalam designs. The font comes in one size and is thicker than usual Malayalam fonts, hence is suited for titling and headlines. Dyuthi can accompany Meera or Rachana as title font, when they are used as body text.+AAoACgAA-The font is designed by Hiran Venugopalan and maintained by Swathanthra Malayalam Computing. Source code is available at https://gitlab.com/smc/dyuthi/ ." "http://smc.org.in" "http://hiran.in" "Digitized data copyright(c) 2007-2016 Hiran Venugopalan, Hussain K H, Swathanthra Malayalam Computing (http://smc.org.in)+AAoA                        (c) 2007 Suresh P, +AAoA                        (c) 2016 Santhosh Thottingal, Rajeesh K Nambiar, Kavya Manohar +AAoACgAA    This program is free software: you can redistribute it and/or modify+AAoA    it under the terms of  SIL Open Font License, Version 1.1  or the +AAoA    GNU General Public License as published by the Free Software Foundation,+AAoA    either version 3 of the License, or (at your option) any later version +AAoA    with Font Exception.+AAoACgAA    This Font Software is duel licensed under the SIL Open Font License,+AAoA    Version 1.1 and GPLV3+- Licence with Font Exception.+AAoACgAA-Check COPYING File at https://gitlab.com/smc/dyuthi for details" "https://gitlab.com/smc/dyuthi/blob/master/COPYING" "" "Dyuthi" "Regular" "Dyuthi"
+LangName: 1033 "" "" "" "" "" "2.0" "" "" "" "Hiran Venugopalan, Hussain K H and Suresh P for Sawthanthra Malayalam Computing (SMC)" "Dyuthi is an ornamental typographic design that supports Latin and Malayalam. The glyph patterns are based on popular 'bulged ended' type designs which used to be popular in Malayalam designs. The font comes in one size and is thicker than usual Malayalam fonts, hence is suited for titling and headlines. Dyuthi can accompany Meera or Rachana as title font, when they are used as body text.+AAoACgAA-The font is designed by Hiran Venugopalan and maintained by Swathanthra Malayalam Computing. Source code is available at https://gitlab.com/smc/dyuthi/ ." "http://smc.org.in" "http://hiran.in" "Digitized data copyright(c) 2007-2016 Hiran Venugopalan, Hussain K H, Swathanthra Malayalam Computing (http://smc.org.in)+AAoA                        (c) 2007 Suresh P, +AAoA                        (c) 2016 Santhosh Thottingal, Rajeesh K Nambiar, Kavya Manohar +AAoACgAA    This program is free software: you can redistribute it and/or modify+AAoA    it under the terms of  SIL Open Font License, Version 1.1  or the +AAoA    GNU General Public License as published by the Free Software Foundation,+AAoA    either version 3 of the License, or (at your option) any later version +AAoA    with Font Exception.+AAoACgAA    This Font Software is duel licensed under the SIL Open Font License,+AAoA    Version 1.1 and GPLV3+- Licence with Font Exception.+AAoACgAA-Check COPYING File at https://gitlab.com/smc/dyuthi for details" "https://gitlab.com/smc/dyuthi/blob/master/COPYING" "" "Dyuthi" "Regular" "Dyuthi"
 GaspTable: 1 65535 2 0
 Encoding: Custom
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -48
+DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 25 10
+WinInfo: 0 24 9
 BeginPrivate: 0
 EndPrivate
 BeginChars: 820 820

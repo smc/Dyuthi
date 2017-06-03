@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 fontpath=/usr/share/fonts/truetype/malayalam
-fonts=Dyuthi
+fonts=Dyuthi-Regular
 feature=features/features.fea
 PY=python2.7
 buildscript=tools/build.py
