@@ -6,9 +6,9 @@ features=features
 PY=python2.7
 version=2.0
 buildscript=tools/build.py
+version=2.0
 default: compile
-all: compile webfonts
-
+all: compile webfonts test
 compile:
 	@for font in `echo ${fonts}`;do \
 		echo "Generating $$font.ttf";\
@@ -29,7 +29,7 @@ woff2: ttf
 
 install: compile
 	@for font in `echo ${fonts}`;do \
-		install -D -m 0644 $${font}.ttf ${DESTDIR}/${fontpath}/$${font}.ttf;\
+		install -D -m 0644 $${font}.otf ${DESTDIR}/${fontpath}/$${font}.ttf;\
 	done;
 
 ifeq ($(shell ls -l *.ttf 2>/dev/null | wc -l),0)

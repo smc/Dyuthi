@@ -6,8 +6,8 @@
 
 import sys
 import time
-import fontforge
 import os
+import fontforge
 import argparse
 import psMat
 from fontTools.ttLib import TTFont
@@ -35,7 +35,6 @@ def flattenNestedReferences(font, ref, new_transform=(1, 0, 0, 1, 0, 0)):
         new_ref.append((name, matrix))
 
     return new_ref
-
 
 
 def validateGlyphs(font):
@@ -87,16 +86,14 @@ def fixXAvgCharWidth(font):
         expected_value = int(round(width_sum) / count)
     font['OS/2'].xAvgCharWidth = int(round(width_sum) / count)
 
-
-
 def opentype(infont, type, feature, version):
     font = fontforge.open(infont)
     if args.type == 'otf':
         outfont = infont.replace(".sfd", ".otf")
-        flags = ("opentype",  "round", "omit-instructions", "dummy-dsig")
+        flags = ("opentype", "dummy-dsig", "round", "omit-instructions")
     else:
         outfont = infont.replace(".sfd", ".ttf")
-        flags = ("opentype", "round", "omit-instructions", "dummy-dsig")
+        flags = ("opentype", "dummy-dsig", "round", "omit-instructions")
     print("Generating %s => %s" % (infont, outfont))
     tmpfont = mkstemp(suffix=os.path.basename(outfont))[1]
 
@@ -116,6 +113,7 @@ def opentype(infont, type, feature, version):
     font.selection.all()
     font.correctReferences()
     font.simplify()
+
     font.selection.none()
     # fix some common font issues
     validateGlyphs(font)
