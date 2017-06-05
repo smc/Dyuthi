@@ -2,8 +2,9 @@
 
 fontpath=/usr/share/fonts/truetype/malayalam
 fonts=Dyuthi-Regular
-feature=features/features.fea
+features=features
 PY=python2.7
+version=2.0
 buildscript=tools/build.py
 default: compile
 all: compile webfonts
@@ -11,15 +12,19 @@ all: compile webfonts
 compile:
 	@for font in `echo ${fonts}`;do \
 		echo "Generating $$font.ttf";\
-		$(PY) $(buildscript) $$font.sfd $(feature);\
+		$(PY) $(buildscript) -t ttf -i $$font.sfd -f $(features)/$$font.fea -v $(version);\
 	done;
 
-webfonts:compile
-	@echo "Generating webfonts";
+webfonts: woff woff2
+woff:
+	@rm -rf *.woff
 	@for font in `echo ${fonts}`;do \
-		sfntly -w $${font}.ttf $${font}.woff;\
-		sfntly -e -x $${font}.ttf $${font}.eot;\
-		[ -x `which woff2_compress` ] && woff2_compress $${font}.ttf;\
+	$(PY) $(buildscript) -t woff -i $$font.ttf;\
+	done;
+woff2: ttf
+	@rm -rf *.woff2
+	@for font in `echo ${fonts}`;do \
+		$(PY) $(buildscript) -t woff2 -i $$font.ttf;\
 	done;
 
 install: compile
