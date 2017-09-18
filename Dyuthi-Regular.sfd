@@ -66,10 +66,10 @@ NameList: Adobe Glyph List
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 24 9
+WinInfo: 624 24 9
 BeginPrivate: 0
 EndPrivate
-BeginChars: 820 820
+BeginChars: 823 820
 
 StartChar: .notdef
 Encoding: 184 -1 0
