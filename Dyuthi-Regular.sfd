@@ -66,7 +66,7 @@ NameList: Adobe Glyph List
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 432 24 9
+WinInfo: 240 24 9
 BeginPrivate: 0
 EndPrivate
 BeginChars: 823 820
@@ -19777,7 +19777,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: th1th1r1
+StartChar: th1th1r3
 Encoding: 332 -1 324
 Width: 3052
 VWidth: 2560
