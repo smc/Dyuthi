@@ -857,9 +857,9 @@ lookup psts_vowel_signs {
     #sub zhp1 u2  by zhp1u2;
     #sub zhm1 u1  by zhm1u1;
     #sub zhm1 u2  by zhm1u2;
-    sub zh v2  by zhv1;
-    sub zh v2 u1  by zhv1u1;
-    sub zh v2 u2  by zhv1u2;
+    #sub zh v2  by zhv1;
+    sub zhv1 u1  by zhv1u1;
+    sub zhv1 u2  by zhv1u2;
     #sub zhs1 u1  by zhs1u1;
     #sub zhs1 u2  by zhs1u2;
     sub rh u1  by rhu1;
