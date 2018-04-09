@@ -6,7 +6,7 @@ features=features
 PY=python2.7
 version=2.0
 buildscript=tools/build.py
-version=2.0
+version=3.0
 default: compile
 all: compile webfonts test
 compile:
