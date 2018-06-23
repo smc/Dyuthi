@@ -1,17 +1,34 @@
 image: "debian:stretch"
 
-generate-ttf:
+before_script:
+  - apt-get update -y
+  - apt-get install -y make fonttools python-fontforge python-brotli
+
+stages:
+  - build
+  - test
+  - release
+
+build-branch:
   stage: build
-  before_script:
-    - apt-get update -y
-    - apt-get install -y make fonttools python-fontforge
   script:
-    - make compile
-    - mkdir -p ttfs/
-    - mv *.ttf ttfs/
+    - make ttf webfonts
   artifacts:
     paths:
-    - ttfs/
+    - build/
+  except:
+    - tags
+
+build-tag:
+  stage: build
+  script:
+    - make ttf webfonts
+    - sh tools/artifacts.sh
+  artifacts:
+    paths:
+    - build/
+  only:
+    - tags
 
 test:
   stage: test
@@ -19,5 +36,12 @@ test:
     - apt-get update -y
     - apt-get install -y make libharfbuzz-bin
   script:
-    - cp -r ttfs/* .
     - make test
+
+release:
+  stage: release
+  before_script: []
+  script:
+    - curl --request POST --form "token=$CI_JOB_TOKEN" --form ref=master https://gitlab.com/api/v4/projects/125326/trigger/pipeline
+  only:
+    - tags
