@@ -1,2 +1,5 @@
-
 features/tables.fea.backup
+build/*
+tests/*.pdf
+tests/*.html
+.directory
