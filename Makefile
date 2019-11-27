@@ -3,7 +3,7 @@
 fontpath=/usr/share/fonts/truetype/malayalam
 fonts=Dyuthi-Regular
 feature=features/Dyuthi-Regular.fea
-PY=python2.7
+PY=python3
 buildscript=tools/build.py
 version=3.0
 outdir=build
